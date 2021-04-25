@@ -1,0 +1,27 @@
+input {
+    margin: 10px;
+    padding: 5px 10px;
+    font-size: 20px;
+}
+.form {
+    font-size: 20px;
+}
+.form button {
+    padding: 10px;
+    text-transform: uppercase;
+    margin: 20px;
+    font-size: 20px;
+    background-color: #fff;
+    transition: .2s;
+    border: 1px solid black;
+}
+.form button:hover {
+    background-color: #000;
+    color: white;
+}
+input[type="checkbox"] {
+    cursor: pointer;
+}
+.important {
+    color: red;
+}
